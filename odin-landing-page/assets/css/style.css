@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*---------- Reset ---------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+/*---------- General CSS ---------*/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*---------- Header ---------*/
+header {
+    background-color: #1F2937;
+}
+
+nav {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+nav h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+}
+
+nav ul li a {
+    font-size: 18px;
+}
+
+/*---------- Section Hero ---------*/
+#hero {
+    background-color: #1F2937;
+}
+
+#hero > .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 0;
+    gap: 20px;
+}
+
+.left-item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 45%;
+}
+
+#hero h2 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.button {
+    background-color: #3882F6;
+    width: 100px;
+    text-align: center;
+    padding: .5rem;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+.right-item {
+    width: 45%;
+}
+
+#hero img {
+    max-width: 100%;
+}
+
+/*---------- Section Information ---------*/
+#information > .container {
+    padding: 3% 0;
+}
+
+#information h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.information-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.information-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    width: 20%;
+}
+
+.information-item .img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+/*---------- Section Quote ---------*/
+#quote {
+    background: #E5E7EB;
+}
+
+#quote > .container {
+    padding: 6% 0;
+    width: 60%;
+}
+
+cite {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#quote p {
+    text-align: end;
+    font-weight: bold;
+}
+
+/*---------- Section Sign Up ---------*/
+#sign-up {
+    padding: 5%;
+}
+
+#sign-up > .container {
+    padding: 3% 6%;
+    border-radius: 10px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+.button2 {
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    width: 100px;
+    text-align: center;
+    padding: .5rem;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+/*---------- Footer ---------*/
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 2% 0;
+}
